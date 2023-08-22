@@ -57,6 +57,7 @@ body {
 p {
 	color: rgb(165, 173, 203);
 	text-align: center;
+	font-size: 26px;
 }
 
 /* MENU */
@@ -131,4 +132,64 @@ header, #menu, #menu ul{
    flex: 1; /* isto é para a nav ocupar a largura toda menos a logo */
    justify-content: flex-end; /* alinha horizontalmente */
    align-items: center; /* alinha verticalmente */
+}
+
+#humanas {
+	position: absolute;
+	top: 50%;
+	left: 20%;
+	transform: translate(-50%,-50%);
+	width: 200px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	color: #fff;
+	font-size: 24px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: sans-serif;
+	box-sizing: border-box;
+	background: linear-gradient(90deg, #af40aa, #5e3baf, #0027d3, #be2db7);
+	background-size: 400%;
+	border-radius: 30px;
+}
+
+#literatura {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 200px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	color: #fff;
+	font-size: 24px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: sans-serif;
+	box-sizing: border-box;
+	background: linear-gradient(90deg, #af40aa, #5e3baf, #0027d3, #be2db7);
+	background-size: 400%;
+	border-radius: 30px;
+}
+
+#pdf {
+	position: absolute;
+	top: 50%;
+	left: 80%;
+	transform: translate(-50%,-50%);
+	width: 200px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	color: #fff;
+	font-size: 24px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: sans-serif;
+	box-sizing: border-box;
+	background: linear-gradient(90deg, #af40aa, #5e3baf, #0027d3, #be2db7);
+	background-size: 400%;
+	border-radius: 30px;
 }
