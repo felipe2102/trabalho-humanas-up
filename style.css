@@ -157,7 +157,7 @@ header, #menu, #menu ul{
 #literatura {
 	position: absolute;
 	top: 50%;
-	left: 50%;
+	left: 40%;
 	transform: translate(-50%,-50%);
 	width: 200px;
 	height: 60px;
@@ -175,6 +175,26 @@ header, #menu, #menu ul{
 }
 
 #pdf {
+	position: absolute;
+	top: 50%;
+	left: 60%;
+	transform: translate(-50%,-50%);
+	width: 200px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	color: #fff;
+	font-size: 24px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: sans-serif;
+	box-sizing: border-box;
+	background: linear-gradient(90deg, #af40aa, #5e3baf, #0027d3, #be2db7);
+	background-size: 400%;
+	border-radius: 30px;
+}
+
+#geo {
 	position: absolute;
 	top: 50%;
 	left: 80%;
